@@ -7,6 +7,7 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    flex-shrink: 0;
 }
 
 li {
@@ -16,17 +17,24 @@ li {
 .hero img {
     width: 300px;
     height: auto;
+    margin-left: 200px;
 }
-.hero {
+.hero, .navi {
     display: flex;
     background-color: #1F2837;
     justify-content: space-between;
-    padding: 8px 200px;
+    padding: 8px;
+    align-items: center;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    flex-shrink: 0;
+}
+.left-text {
+    max-width: 450px;
+    flex-shrink: 0;
 }
 .hero-main-text {
     font-size: 48px;
