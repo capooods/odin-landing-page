@@ -46,12 +46,12 @@ button {
 }
 .hero-contain {
     justify-content: center;
+    margin-bottom: 32px;
 }
 
 .hero {
     height: 400px;
     width: 1000px;
-    margin-bottom: 32px;
     max-width: 200vh;
 }
 
@@ -86,13 +86,16 @@ button {
 
 .info-contain {
     display: flex;
-    color: #1F2937;
+    flex-wrap: wrap;
+    color: #7685a3;
+    justify-content: center;
 }
 
 .info-tab {
     text-align: center;
     margin: 0 16px;
     width: 170px;
+    font-size: 18px;
 }
 
 .info-tab img {
