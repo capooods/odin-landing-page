@@ -33,17 +33,26 @@ button {
     width: 300px;
     height: auto;
 }
-.hero, .navi {
+
+.hero, .navi, .hero-contain {
     display: flex;
     background-color: #1F2837;
-    justify-content: space-between;
     padding: 8px;
     align-items: center;
 }
 
+.hero, .navi {
+    justify-content: space-between;
+}
+.hero-contain {
+    justify-content: center;
+}
+
 .hero {
     height: 400px;
+    width: 1000px;
     margin-bottom: 32px;
+    max-width: 200vh;
 }
 
 .logo {
@@ -83,10 +92,12 @@ button {
 .info-tab {
     text-align: center;
     margin: 0 16px;
+    width: 170px;
 }
 
 .info-tab img {
-    width: 64px;
+    width: 96px;
+    margin: 32px 0 8px 0;
 }
 /* * {
     border-style: solid;
