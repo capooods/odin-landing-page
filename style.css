@@ -77,6 +77,16 @@ button {
 
 .info-contain {
     display: flex;
+    color: #1F2937;
+}
+
+.info-tab {
+    text-align: center;
+    margin: 0 16px;
+}
+
+.info-tab img {
+    width: 64px;
 }
 /* * {
     border-style: solid;
