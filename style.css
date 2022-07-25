@@ -13,6 +13,10 @@ li {
     margin: 8px 16px;
 }
 
+.hero img {
+    width: 300px;
+    height: auto;
+}
 .hero {
     display: flex;
     background-color: #1F2837;
