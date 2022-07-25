@@ -43,6 +43,7 @@ button {
 
 .hero {
     height: 400px;
+    margin-bottom: 32px;
 }
 
 .logo {
@@ -63,6 +64,19 @@ button {
 .hero-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.content-one {
+    display: flex;
+    flex-direction: column;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1f2937;
+    align-items: center;
+}
+
+.info-contain {
+    display: flex;
 }
 /* * {
     border-style: solid;
