@@ -147,6 +147,28 @@ a {
     font-weight: 900;
     text-align: right;
 }
+
+/* Call to action Section */
+.action-contain {
+    display: flex;
+    justify-content: center;
+    padding: 0 8px;
+}
+
+.actionbox {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    width: 120vh;
+}
+
+.actionbox button {
+    border-style: solid;
+    padding: 
+}
+
+
 /* * {
     border-style: solid;
 } */
