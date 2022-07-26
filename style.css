@@ -89,6 +89,7 @@ button {
     flex-wrap: wrap;
     color: #7685a3;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .info-tab {
@@ -101,6 +102,27 @@ button {
 .info-tab img {
     width: 96px;
     margin: 32px 0 8px 0;
+}
+
+.quote-contain {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    max-width: 830px;
+    margin: 150px 0;
+}
+
+.quote-author {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    text-align: right;
 }
 /* * {
     border-style: solid;
