@@ -9,7 +9,7 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    flex-shrink: 0;
+
 }
 
 li {
@@ -43,8 +43,11 @@ a {
 /* Navigation Bar */
 
 .navi {
-    width: 98%;
+    flex: 1 1 auto;
     position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     padding: 16px;
     justify-content: space-between;
 }
