@@ -29,6 +29,11 @@ button {
     margin: 8px 0;
 }
 
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
 .hero, .navi, .hero-contain {
     display: flex;
     background-color: #1F2837;
