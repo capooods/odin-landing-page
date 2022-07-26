@@ -34,7 +34,7 @@ a {
     color: #F9FAF8;
 }
 
-.hero, .navi, .hero-contain {
+.hero, .navi, .hero-contain, .footer-contain {
     display: flex;
     background-color: #1F2837;
     align-items: center;
@@ -173,8 +173,8 @@ a {
 }
 
 .call-text {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .call-subtext {
@@ -184,8 +184,22 @@ a {
 .actionbox button {
     border-style: solid;
     padding: 8 35px;
+    cursor: pointer;
 }
 
+.actionbox button:hover {
+    background-color: white;
+    color: #3882F6;
+    border-color: white;
+}
+
+/* Footer section */
+
+.footer-contain {
+    color: white;
+    justify-content: center;
+    padding: 36px 0;
+}
 
 /* * {
     border-style: solid;
