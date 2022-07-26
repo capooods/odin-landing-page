@@ -33,17 +33,15 @@ button {
     display: flex;
     background-color: #1F2837;
     align-items: center;
-    width: 100%;
 }
 
 /* Navigation Bar */
 
 .navi {
-    width: 100%;
+    width: 98%;
     position: fixed;
-    display: flex;
     padding: 16px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .logo {
