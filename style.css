@@ -158,14 +158,32 @@ a {
 .actionbox {
     display: flex;
     background-color: #3882F6;
-    color: white;
     border-radius: 8px;
-    width: 120vh;
+    width: 900px;
+    margin: 90px 8px;
+    padding: 50px 130px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.left-call {
+    color: white;
+   
+}
+
+.call-text {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.call-subtext {
+    font-weight: 100;
 }
 
 .actionbox button {
     border-style: solid;
-    padding: 
+    padding: 8 35px;
 }
 
 
