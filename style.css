@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     margin: 0;
     min-height: 100vh;
 }
@@ -24,7 +24,7 @@ button {
     border-radius: 8px;
     background-color: #3882F6;
     color: white;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     margin: 8px 0;
     cursor: pointer;
@@ -88,7 +88,7 @@ a {
 
 .hero-main-text {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 700;
     color: #F9FAF8;
 }
 
@@ -102,7 +102,7 @@ a {
 .content-one {
     display: flex;
     flex-direction: column;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 36px;
     color: #1f2937;
     align-items: center;
@@ -140,7 +140,7 @@ a {
 .quote {
     font-size: 36px;
     font-style: italic;
-    font-weight: 100;
+    font-weight: 200;
     max-width: 830px;
     margin: 150px 16px;
 }
@@ -148,7 +148,7 @@ a {
 .quote-author {
     font-size: 16px;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
     text-align: right;
 }
 
@@ -178,7 +178,7 @@ a {
 
 .call-text {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .call-subtext {
